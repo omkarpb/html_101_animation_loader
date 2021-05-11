@@ -105,3 +105,20 @@
     transform: translate(0px, 0px);
   }
 }
+
+#cssxG3Ga {
+  stroke-dasharray: 1521;
+  stroke-dashoffset: 1521;
+  opacity: 0;
+  transform: scale(0.9);
+  transform-origin: center;
+  animation: dashes 1s linear 0s infinite alternate forwards;
+}
+
+@keyframes dashes {
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+    transform: scale(1);
+  }
+}
